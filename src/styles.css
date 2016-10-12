@@ -1,1 +1,127 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  padding-top: 100px;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-inverse {
+  background-image: none;
+  background-color: #afcde5;
+  border-color: #afcde5;
+}
+
+#cart {
+  position: relative;
+}
+#cart .badge {
+  position: absolute;
+  right: 0;
+}
+
+.panel-body h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.rounded-control {
+  border-radius: 50px;
+}
+
+.btn {
+  color: white;
+}
+.btn.hs-primary {
+  background: #afcde5;
+}
+.btn.hs-primary:hover, .btn.hs-primary:focus {
+  color: white;
+  background: #65b0e5;
+}
+.btn.hs-secondary {
+  background: #ee3365;
+}
+.btn.hs-secondary:hover, .btn.hs-secondary:focus {
+  color: white;
+  background: #f36591;
+}
+.btn.btn-disabled, .btn.btn-disabled:focus {
+  color: white;
+  background: #d9d9d9;
+}
+.btn img {
+  display: inline-block !important;
+}
+
+.thumbnail {
+  cursor: pointer;
+}
+.thumbnail:hover {
+  box-shadow: 0 0 5px #ee3365;
+  transition: all 0.2s;
+}
+.thumbnail h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.thumbnail .img-wrapper {
+  height: 250px;
+  overflow: hidden;
+}
+.thumbnail .img-wrapper img {
+  width: 100%;
+}
+
+.quantity.quantity-available {
+  color: #2fc947;
+}
+.quantity.quantity-out {
+  color: #fd655f;
+}
+
+.price {
+  font-size: 18px;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.action {
+  border-top: 1px solid #dddddd;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.toggle {
+  border-radius: 50px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 10px;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+}
+.toggle.toggle-off {
+  background: #d9d9d9;
+}
+.toggle.toggle-off:hover {
+  box-shadow: 0 0 5px #ee3365;
+  transition: all 0.2s;
+}
+.toggle.toggle-on {
+  background: #ee3365;
+  transition: all 0.2s;
+}
+.toggle.toggle-on:hover {
+  background: #f36591;
+  transition: all 0.2s;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .img-wrapper {
+    height: 400px;
+  }
+}
