@@ -1,0 +1,137 @@
+$primary-color: #afcde5;
+$primary-hover-color: #65b0e5;
+$secondary-color: #ee3365;
+$secondary-hover-color: #f36591;
+$quantity-available-color: #2fc947;
+$quantity-out-color: #fd655f;
+
+body {
+  padding-top: 100px;
+}
+
+.navbar-brand {
+  height: auto;
+}
+.navbar-inverse {
+  background-image: none;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+#cart {
+  position: relative;
+  .badge {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.panel-body h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.rounded-control {
+  border-radius: 50px;
+}
+
+.btn {
+  color: white;
+  &.hs-primary {
+    background: $primary-color;
+    &:hover, &:focus {
+      color: white;
+      background: $primary-hover-color;
+    }
+  }
+  &.hs-secondary {
+    background: $secondary-color;
+    &:hover, &:focus {
+      color: white;
+      background: $secondary-hover-color;
+    }
+  }
+  &.btn-disabled, &.btn-disabled:focus {
+    color: white;
+    background: #d9d9d9;
+  }
+  img {
+    display: inline-block !important;
+  }
+}
+
+.thumbnail {
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 0 5px $secondary-color;
+    transition: all 0.2s;
+  }
+  h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .img-wrapper {
+    height: 250px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.quantity {
+  &.quantity-available {
+    color: $quantity-available-color;
+  }
+  &.quantity-out {
+    color: $quantity-out-color;
+  }
+}
+
+.price {
+  font-size: 18px;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.action {
+  border-top: 1px solid #dddddd;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.toggle {
+  border-radius: 50px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 10px;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+  &.toggle-off {
+    background: #d9d9d9;
+    &:hover {
+      box-shadow: 0 0 5px $secondary-color;
+      transition: all 0.2s;
+    }
+  }
+  &.toggle-on {
+    background: $secondary-color;
+    transition: all 0.2s;
+    &:hover {
+      background: $secondary-hover-color;
+      transition: all 0.2s;
+    }
+  }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .img-wrapper {
+        height: 400px;
+    }
+}

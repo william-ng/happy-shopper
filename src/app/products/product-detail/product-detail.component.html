@@ -1,0 +1,42 @@
+<h3>{{product.name}}</h3>
+<hr/>
+<div class="row">
+  
+    <div class="col-sm-6">
+        <img class="img-responsive" src="{{product.imageSrc}}" alt="">
+    </div>
+
+    <div class="col-sm-6">
+        <h4>Description</h4>
+        <p>{{product.description}}</p>
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="quantity" [ngClass]="{ 'quantity-available': availableStock, 'quantity-out': !availableStock }">
+              {{ availableStock ? 'Only ' + availableStock + ' left in stock' : 'Out of Stock'}}
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="price">{{ product.unitPrice | currency:'USD':true }}</div>
+          </div>
+        </div>
+        <div *ngIf="availableStock">
+          <div class="row">
+            <div class="col-xs-4">
+              <input class="form-control" type="number" min="1" [max]="availableStock" value="1" #quantity />
+            </div>
+            <div class="col-xs-8">
+              <button 
+                type="button" 
+                class="btn btn-default btn-md hs-secondary"
+                (click)="onAddToCart(quantity.value)"
+              >
+                <img src="/assets/imgs/icon-add-white.png" width="24"/> Add To Cart
+              </button>
+            </div>
+          </div>
+
+        </div>
+        
+    </div>
+
+</div>

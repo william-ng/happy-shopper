@@ -1,0 +1,59 @@
+<h3 *ngIf="!cart.length">Your Shopping Cart is empty.</h3>
+<h3 *ngIf="cart.length">Shopping Cart</h3>
+<div *ngIf="cart.length" class="row">
+  <div class="col-sm-8">
+    <div class="list-group">
+      <div class="list-group-item" *ngFor="let item of cart; let i = index">
+        <div class="row">
+          <div class="col-sm-3">
+            <img class="img-responsive" src="{{item.product.imageSrc}}" />
+          </div>
+          <div class="col-sm-9">
+            <h4>{{item.product.name}}</h4>
+            <div class="quantity" [ngClass]="{ 'quantity-available': item.product.inStock, 'quantity-out': !item.product.inStock }">
+              {{ item.product.inStock ? 'Only ' + (item.product.inStock - item.quantity) + ' left in stock' : 'Out of Stock'}}
+            </div>
+            <div class="pull-right">
+              <input 
+                type="number" 
+                min="1" 
+                [max]="item.product.inStock" 
+                [value]="item.quantity" 
+                (change)="onChangeQuantity(i, quantity.value)"
+                #quantity 
+              />
+              <button 
+                type="button" 
+                class="btn btn-default btn-md hs-secondary" 
+                (click)="onRemoveItem(i)"
+              >
+                Remove
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Cart Summary</h3>
+      </div>
+      <div class="panel-body">
+        <h4>
+          Subtotal ({{cart.length}} items): {{shoppingCartService.getSubTotal() | currency:'USD':true}}
+        </h4>
+        <div class="action">
+          <button
+            type="button" 
+            class="btn btn-default btn-md hs-secondary"
+            (click)="onSumbitOrder()"
+          >
+            Submit Order
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

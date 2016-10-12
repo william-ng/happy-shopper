@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Active Filters</h3>
+  </div>
+  <div class="panel-body">
+    <strong>Categories</strong>
+    <hr/>
+    <span 
+      class="toggle" 
+      *ngFor="let category of productsService.availableCategories; let i = index" 
+      [ngClass]="{'toggle-on': activeFilter[category], 'toggle-off': !activeFilter[category]}" 
+      (click)="onToggle(i)" 
+    >
+      {{category}}
+    </span>
+  </div>
+</div>
