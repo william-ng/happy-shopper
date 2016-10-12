@@ -1,6 +1,15 @@
 # HappyShopper
-This is an online store example using Angular 2
+Shopping Cart Challenge - a simple online store prototype using Angular 2
+
+Basic functionalities include:
+- List of products
+- Filter by categories
+- Detail page of a product
+- Add to cart
+- Checkout
+- Submit order
+
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
