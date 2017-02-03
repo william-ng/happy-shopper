@@ -1,0 +1,184 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name":"Power Pressure Cooker XL",
+            "description": "Power Pressure Cooker XL one-touch cooking, get delicious healthy meals up to 70% faster than conventional cooking, flavor infusion technology traps superheated steam and locks in intense flavor and nutrients!",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/803/551/999999-752356803551.jpg",
+            "categories": ["Small Appliances"],
+            "unitPrice": 99.98,
+            "inStock": 12 
+        },
+        {
+            "id": 2,
+            "name":"Hamilton Beach® 2 Pound Breadmaker",
+            "description": "Hamilton Beach® 2 Pound Breadmaker - 3 easy steps to homemade bread: Add ingredients, select cycle, start!",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/973/0_1/839730_1.jpg",
+            "categories": ["Small Appliances"],
+            "unitPrice": 39.98,
+            "inStock": 19 
+        },
+        {
+            "id": 3,
+            "name":"Ecohouzng Super Luxury Electric Pressure Cooker",
+            "description": "Ecohouzng Electric Pressure Cooker is built with innovative technology and comes with many functions. It can be used to make multiple different foods, from steam rice to cook meat, fish, vegetable and soup. It is way much more convenient, amazing and effective when comparing to traditional cooker. This Cooker uses the Thermal Circulation Technology to trap the heat and liquid and moisture inside the pot, which make your foods never too dry and burned in the bottom of the pot and that’s how to keep all the flavors and nutrients inside the food. Also, the elegant design on the pressure cooker can make your kitchen more beautiful, the stainless steel cover outside and the pot inside are both really easy to wash and clean up. Everyone should bring this to their kitchen for easy cooking.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/343/483/999999-669716343483.jpg",
+            "categories": ["Small Appliances"],
+            "unitPrice": 156.98,
+            "inStock": 6 
+        },
+        {
+            "id": 4,
+            "name":"Keurig Hot K50 Bundle Pack Single Serve Coffee Maker",
+            "description": "The Keurig K50 brewer brews a perfect beverage in under one minute, offering a choice of three cup sizes with a removable drip tray to accommodate travel mugs. This bundle pack comes with an assortment of 30 K-Cup® pods, a Classic My K-Cup® and a water filter kit.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/358/317/999999-62151358317.jpg",
+            "categories": ["Small Appliances"],
+            "unitPrice": 115.88,
+            "inStock": 0 
+        },
+        {
+            "id": 5,
+            "name":"Tassimo T47 Single Cup Home Brewing System",
+            "description": "Makes coffee, cappuccino, latte, espresso, café crema, tea and hot chocolate. Tassimo reads the barcode on each T DISC to determine the specific water quantity, brew time and brew temperature for every beverage. So that every beverage is made the way it was meant to be – perfect.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/280/550/1280550.jpg",
+            "categories": ["Small Appliances"],
+            "unitPrice": 99.88,
+            "inStock": 20 
+        },
+        {
+            "id": 6,
+            "name":"Monarch Cappuccino Bar Unit With Bottle And Glass Storage",
+            "description": "This stylish and contemporary 48\" high bar unit encompasses a design that is ideal for entertaining your guests. It features two doors where you conveniently find a place to hang glasses and a wine rack that can store up to 10 bottles. Its shelving area is great for making cocktails or displaying bar accessories. This cappuccino finished, solid-wood unit is practical, elegant and a must-have in every home!",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/230/165/1230165.jpg",
+            "categories": ["Furniture"],
+            "unitPrice": 337.97,
+            "inStock": 5 
+        },
+        {
+            "id": 7,
+            "name":"South Shore Gascony Collection Computer Desk, Ebony and Spice Wood Finish",
+            "description": "This charming Gascony Collection offers a nice sophisticated look with lots of character. It provides you with a large working surface and convenient storage space to keep everything well organized.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/750/475/750475.jpg",
+            "categories": ["Furniture"],
+            "unitPrice": 219.00,
+            "inStock": 11 
+        },
+        {
+            "id": 8,
+            "name":"CorLiving LOF-309-O Office Chair in Black",
+            "description": "Style your home desk with the convenient LOF-309-O office chair from CorLiving featuring a fabric seat, contoured tilting mesh back support, gas lift and black legs with rolling wheels. The comfortable, contemporary design will accent any desk setting while offering the option to adjust to your desk height and body shape with ease. A great addition to any home!",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/997/239/999999-776069997239.jpg",
+            "categories": ["Furniture"],
+            "unitPrice": 99.00,
+            "inStock": 5 
+        },
+        {
+            "id": 9,
+            "name":"Zuo Scout Office Chair",
+            "description": "Modeled after a classic design, the Scout office chair is wrapped and tufted in a soft leatherette and comes in two colors: white and black. The seat sits on a solid chrome base with an adjustable height feature.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/156/017/1156017.jpg",
+            "categories": ["Furniture"],
+            "unitPrice": 290.00,
+            "inStock": 2 
+        },
+        {
+            "id": 10,
+            "name":"Entryway Shelf Espresso",
+            "description": "Keep your gloves, hats, coats and jackets together where you need them with the Entryway Cubbie Shelf. Perfect for any front hallway, mudroom or home office, it’s three compartments have room for everything from mittens to schoolbooks. Four large hooks provide sturdy storage for your outerwear, scarves and tote bags. Install it easily with our innovative hanging rail system and get the versatile entryway piece you’ve been missing.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/173/8_1/1101738_1.jpg",
+            "categories": ["Furniture"],
+            "unitPrice": 87.00,
+            "inStock": 12 
+        },
+        {
+            "id": 11,
+            "name":"Nikon D3200 Digital SLR Camera Kit, Black",
+            "description": "Don't let the D3200's compact size and price fool you—packed inside this easy-to-use HD-SLR is serious Nikon power: a 24.2 MP DX-format CMOS sensor that excels in any light, EXPEED 3 image-processing for fast operation and creative in-camera effects, Full HD (1080p) movie recording, in-camera tutorials and much more. What does this mean for you? Simply stunning photos and videos in any setting. And now, with Nikon's optional Wireless Mobile Adapter, you can share those masterpieces instantly with your Smartphone or tablet!",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/490/988/1490988.jpg",
+            "categories": ["Cameras"],
+            "unitPrice": 489.98,
+            "inStock": 4 
+        },
+        {
+            "id": 12,
+            "name":"Fujifilm FinePix XP90 EC Digital Camera",
+            "description": "Ideal for snowboarding, skiing, mountain biking, swimming and snorkeling, the FinePix XP90 is a tough, rugged camera that goes along on all your adventures. Waterproof to 50ft/15m, shockproof to 5.8ft/1.75m, freezeproof 14°F/-10°C and dust-proof against dust or sand, this camera gives you all the protection you need. The XP90 also has great camera features like 10fps high speed shooting, WiFi remote camera control and image transfer, and Full HD 1080p video. Plus, it has an up-graded bright 3\" 920k dot high-definition LCD with anti-reflective coating that makes it easier to see in bright sunlight or underwater. A must-have for any kind of vacation!",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/748/8_1/999999-74101027488_1.jpg",
+            "categories": ["Cameras"],
+            "unitPrice": 239.98,
+            "inStock": 0 
+        },
+        {
+            "id": 13,
+            "name":"Olympus OM-D E-M1 Digital SLR Camera",
+            "description": "With the new 16 MP Live MOS Sensor, the OM-D E-M1 automatically switches between Contrast Detection AF or Phase Detection AF to deliver blazing fast autofocus speed - no matter which Olympus Zuiko lens you use. All of our lenses -- from our super-quiet MSC Micro Four-Thirds lenses to our renowned SWD Four Thirds lenses work seamlessly and to their full potential when paired with the OM-D E-M1. Features such as Focus Peaking and Magnified Focus Assist let you use your favorite OM lens with the appropriate adapter for beautiful results.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/186/279/999999-50332186279.jpg",
+            "categories": ["Cameras"],
+            "unitPrice": 1399.99,
+            "inStock": 2 
+        },
+        {
+            "id": 14,
+            "name":"Olympus Air A01 16.05 Mega-Pixel Smartphone Attachable Digital Camera - White",
+            "description": "The Olympus AIR is a new concept, open platform camera that pairs the sophistication of digital interchangeable lens cameras with the intelligence of a smartphone. Olympus AIR offers all of the benefits of an interchangeable lens camera – like optical zoom, high image quality, big bright apertures, strong low light performance and shallow depth of field – in a sleek, simple form factor.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/889/762/999999-503321889762.jpg",
+            "categories": ["Cameras"],
+            "unitPrice": 598.00,
+            "inStock": 10 
+        },
+        {
+            "id": 15,
+            "name":"FUJIFILM Finepix XP85 Waterproof Point & Shoot Digital Camera- Yellow with Strap",
+            "description": "The FinePix XP85 rugged digital camera is waterproof to 50ft./15m, shockproof from 5.8ft./1.75m, freezeproof to 14°F/-10°C, dustproof** and features a 16.4MP CMOS sensor with a 28-140mm 5x optical zoom lens, Wi-Fi® connectivity for one touch transfer to smartphones and tablets as well as remote capture. It also shoots full HD movies at 1080P, even underwater!",
+            "imageSrc": "https://images.efurb.com/images/products/4600_4_Main.jpg",
+            "categories": ["Cameras"],
+            "unitPrice": 238.98,
+            "inStock": 0 
+        },
+        {
+            "id": 16,
+            "name":"BlackBerry 5\" Leap Smartphone - Grey",
+            "description": "You live in a world where your valued private photos, messages, and information are one misstep away from going public. Your smartphone is at the center of it all from banking information to work data and personal items. You can feel safe in the knowledge that the BlackBerry Leap was designed with the highest standards of security in mind to protect your privacy. It is equipped with support for encryption, plus built-in malware protection and back-up, wipe and restore. All to give you control and power to avoid falling victim to the next embarrassing and potentially costly cyber-attack.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/059/713/999999-802975059713.jpg",
+            "categories": ["Smartphones"],
+            "unitPrice": 279.95,
+            "inStock": 21 
+        },
+        {
+            "id": 17,
+            "name":"Samsung Galaxy Grand Prime 8GB Unlocked Smartphone - Gray",
+            "description": "The GALAXY Grand Prime combines sophistication and powerful performance, compressing all the essential features for fun on the go into a sleek, modern package. But svelte doesn’t mean small: The 5” qHD display makes sure nothing cramps your style.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/123/5_2/999999-88727611235_2.jpg",
+            "categories": ["Smartphones"],
+            "unitPrice": 499.95,
+            "inStock": 5 
+        },
+        {
+            "id": 18,
+            "name":"Apple iPhone SE 16GB - Rose Gold",
+            "description": "iPhone SE is the most powerful 4-inch phone ever. It features advanced camera capabilities and incredible processing power packaged in a beloved design. It’s a big step for small. iPhone SE features a 4-inch Retina display, an A9 chip with 64-bit desktop-class architecture, the Touch ID fingerprint sensor, a 12MP iSight camera, a FaceTime HD camera with Retina Flash, Live Photos, LTE1 and fast Wi-Fi, iOS 9 and iCloud.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/836/2_1/999999-620893508362_1.jpg",
+            "categories": ["Smartphones"],
+            "unitPrice": 589.99,
+            "inStock": 2 
+        },
+        {
+            "id": 19,
+            "name":"Samsung Galaxy Tab A 8\" Tablet",
+            "description": "Re-designed for enhanced portability and featuring more proportional screen dimensions that offer a better viewing experience, the lighter, thinner Galaxy Tab A fits easily in the palm of your hand. Pre-loaded software, like MS Office, and features like Multi-Window enhance your productivity. And with Kids Mode you can you feel at ease giving it to your kids to enjoy. Meet the remarkably innovative Galaxy Tab A, the tablet that offers an amazing experience to the entire family.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/606/761/999999-88727606761.jpg",
+            "categories": ["iPad & Tablets"],
+            "unitPrice": 219.99,
+            "inStock": 6 
+        },
+        {
+            "id": 20,
+            "name":"Apple 9.7\" iPad Pro Tablet",
+            "description": "The 9.7-inch iPad Pro delivers an unprecedented combination of portability and performance. Powered by the A9X chip and featuring the brightest, most advanced Retina display, it’s only 6.1 mm thin and weighs less than 500 grams. When you add the Apple Pencil with its pixel-perfect precision, and the incredibly thin Smart Keyboard, iPad Pro becomes even more versatile.",
+            "imageSrc": "http://i5.walmartimages.ca/images/Large/763/455/999999-888462763455.jpg",
+            "categories": ["iPad & Tablets"],
+            "unitPrice": 1199.99,
+            "inStock": 11 
+        }
+    ]
+}
